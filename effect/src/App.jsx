@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import Card from './Card'
 
 const App = () => {
 
@@ -8,7 +9,7 @@ const App = () => {
     const value1 = Math.floor(Math.random()*256)
     const value2 = Math.floor(Math.random()*256)
     const value3 = Math.floor(Math.random()*256)
-    
+
     boxRef.current.style.backgroundColor = `rgb(${value1},${value2},${value3})`
   }
 

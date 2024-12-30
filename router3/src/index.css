@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+    font-size: 60px;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-decoration: underline;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
